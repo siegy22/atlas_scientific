@@ -1,4 +1,5 @@
-$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "atlas_scientific"
+$LOAD_PATH.unshift File.expand_path('../lib', __dir__)
+require 'atlas_scientific'
 
-require "minitest/autorun"
+require 'active_support'
+require 'minitest/autorun'
